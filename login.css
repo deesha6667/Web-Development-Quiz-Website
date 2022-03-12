@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(rgba(126, 138, 134, 0.856),
+     rgb(97, 92, 92)), url("images/edu.jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-right: 50%;
+    opacity: 0.9;
+}
+.box{
+    width: 450px;
+    height: 520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+}
+.box h1{
+    font-size: 40px;
+    border-bottom: 6px solid;
+    margin-bottom: 50px;
+    padding: 13px,0;
+    color: white;
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background-color:none;
+    display: block;
+    margin: 8px 0;
+    text-align: center;
+    border: 3px solid rgb(80, 83, 80);
+    padding: 8px 0px;
+    width: 100%;
+    outline: none;
+    overflow: hidden;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    font-size: 20px;
+    border: none;
+    background: none;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+    width: 270px;
+    border-color:none;
+}
+.box input[type="submit"]
+{
+    border: 0;
+    background-color: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid ;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="text"]:hover,.box input[type="password"]:hover
+{
+    background: rgb(235, 247, 252);
+    color: black;
+}
+.box input[type="submit"]:hover
+{
+    background-color: transparent;
+    color: white;
+}

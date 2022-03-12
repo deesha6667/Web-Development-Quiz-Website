@@ -1,0 +1,57 @@
+body {
+  background: #001628;
+  color: #777;
+  padding: 4em;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkred;
+  font-size: 3rem;
+}
+
+.article img {
+  padding-bottom: 5%;
+  height: 95%;
+  width: 100%;
+} 
+
+.article a{
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+  
+.page {
+  padding: 1em;
+  background: #cecece;
+}
+  
+.archive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  grid-gap: 1em;
+}
+  
+.article {
+  padding: 1em;
+  background: #fff;
+  box-shadow:0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+.textfooter{
+  text-align: center;
+  padding: 30px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.inner_container .logout_button{
+	font-family: Times New Roman;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="leftnav v-class-resp">
+            <div id="logo"><img src="images/quiztime.jpg" alt="WebDevelopmentQuiz"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="quizpage.html">Quizzes</a></li>
+            <li><a href="contactuspage.html">Contact</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.google.com/" target="_blank" class="fa fa-google"></a>
+            <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Please fill the below form and get in touch with us</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Mumbai, Maharashtra</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>507-475-6094</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>webdeveloperquiz@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="contact_mail.php" method="POST">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required placeholder="Full Name">
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required placeholder="Email">
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="message" cols="30" rows="10" required
+                            placeholder="Type your Message..."></textarea>
+                    </div>
+                    <!-- <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div> -->
+                    <button class="btn btn-contact" type="submit" name="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="textfooter">
+            Copyright &copy; 2020 - www.quizocode.com - All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+
+</html>
